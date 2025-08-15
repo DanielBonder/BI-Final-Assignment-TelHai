@@ -37,7 +37,7 @@ BI-Final-Assignment-TelHai/
 ├── framingham.csv                   # Classification dataset
 ├── patient_dataset.csv               # Clustering dataset
 ├── GroceryDataset.csv                # Association dataset
-└── Final_HW-Tel-Hai.pdf              # PDF version of the report
+└── Final_HW-Tel-Hai.pdf              # Original assignment questions provided by the lecturer
 ```
 
 ---
