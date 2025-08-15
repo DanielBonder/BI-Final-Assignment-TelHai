@@ -1,31 +1,56 @@
-# BI Final Project – Tel-Hai College
+# 📊 BI Final Project – Tel-Hai College
 
 ## 📄 Overview
-This repository contains the final project for the **Business Intelligence** course at Tel-Hai College (Spring Semester 2025).  
-The project applies **Classification**, **Clustering**, and **Association Rule Mining** techniques to three datasets, demonstrating data preprocessing, model building, and interpretation of results using Python.
+This repository contains the **final project** for the *Business Intelligence* course at Tel-Hai College (Spring Semester 2025).  
+The project demonstrates **Classification**, **Clustering**, and **Association Rule Mining** techniques on three different datasets, applying data preprocessing, model building, and result interpretation using Python.
 
 ---
 
-## 📊 Project Parts
+## 🚀 Project Highlights
 
-### 1. Classification – Heart Disease Risk Prediction
-**Dataset:** `framingham.csv`  
-- Used **Random Forest** to identify the most important features predicting 10-year CHD risk.  
-- Built a **Decision Tree Classifier** with a 70/30 train-test split.  
-- Calculated **Accuracy**, **Precision**, and **Recall**.  
-- Discussed advantages of Decision Trees and strategies to prevent overfitting.
+| Part | Goal | Main Methods | Key Output |
+|------|------|--------------|------------|
+| **Classification** | Predict 10-year CHD risk | Random Forest, Decision Tree | Feature importance, Accuracy, Precision, Recall |
+| **Clustering** | Group patients by symptoms | Elbow Method, K-Means | Optimal cluster selection, Patient group visualization |
+| **Association Rules** | Find product purchase patterns | Apriori Algorithm | Frequent itemsets and business insights |
 
-### 2. Clustering – Patient Triage
-**Dataset:** `patient_dataset.csv`  
-- Applied **Elbow Method** to determine the optimal number of clusters.  
-- Performed **K-Means Clustering** to group patients based on symptoms.  
-- Discussed limitations of K-Means in a medical triage context.
+---
 
-### 3. Association Rules – Market Basket Analysis
-**Dataset:** `GroceryDataset.csv`  
-- Implemented the **Apriori Algorithm** to discover frequent itemsets.  
-- Generated rules with minimum support of 50% and confidence of 70%.  
-- Interpreted a sample rule and proposed real-world retail applications.
+## 📊 Part 1 – Classification: Heart Disease Risk Prediction
+**Dataset:** `framingham.csv`
+
+- **Feature Importance with Random Forest** – Identified the most influential factors affecting CHD risk over the next 10 years.
+- **Decision Tree Classifier** – Trained with 70% training / 30% testing split.
+- **Performance Metrics** – Calculated Accuracy, Precision, and Recall to evaluate model quality.
+- **Overfitting Prevention** – Discussed pruning and parameter tuning.
+
+**📷 Visualization:** *Feature Importance*  
+![Feature Importance Graph](images/feature_importance.png)  
+*This graph ranks the dataset features by their importance score from the Random Forest model, helping to focus on the most impactful health indicators.*
+
+---
+
+## 🧩 Part 2 – Clustering: Patient Triage
+**Dataset:** `patient_dataset.csv`
+
+- **Goal** – Group patients based on symptom severity to prioritize treatment areas.
+- **Elbow Method** – Used to determine the optimal number of clusters.
+- **K-Means Clustering** – Segmented patients into predefined clusters.
+
+**📷 Visualization:** *Elbow Method Graph*  
+![Elbow Method Graph](images/elbow_method.png)  
+*This plot shows the Within-Cluster Sum of Squares (WCSS) vs. the number of clusters. The "elbow point" indicates the optimal cluster count for efficient grouping.*
+
+---
+
+## 🛒 Part 3 – Association Rules: Market Basket Analysis
+**Dataset:** `GroceryDataset.csv`
+
+- **Apriori Algorithm** – Extracted frequent itemsets from customer purchase data.
+- **Support ≥ 50% & Confidence ≥ 70%** – Ensured that only strong and relevant rules were kept.
+- **Example Insight** – Customers who buy *Bread* and *Milk* are highly likely to also buy *Butter*.
+
+**Business Impact:** Retailers can use these rules to optimize product placement, promotions, and cross-selling strategies.
 
 ---
 
@@ -37,7 +62,7 @@ BI-Final-Assignment-TelHai/
 ├── framingham.csv                   # Classification dataset
 ├── patient_dataset.csv               # Clustering dataset
 ├── GroceryDataset.csv                # Association dataset
-└── Final_HW-Tel-Hai.pdf              # Original assignment questions provided by the lecturer
+└── Final_HW-Tel-Hai.pdf              # Original assignment questions from lecturer
 ```
 
 ---
