@@ -24,7 +24,6 @@ The project demonstrates **Classification**, **Clustering**, and **Association R
 - **Evaluation Metrics** – Accuracy, Precision, and Recall calculated using a 70/30 train-test split.
 - **Overfitting Prevention** – Discussed pruning and hyperparameter tuning.
 
-*(No image available for this section in the current notebook.)*
 
 ---
 
